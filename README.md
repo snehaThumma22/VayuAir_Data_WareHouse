@@ -69,6 +69,8 @@ Grain: One row in sales fact table represents one "booking" asssociated with a f
 Question 2: 
 - Created the dw schema to organise the data warehouse tables.
 - The star schema contains one central fact table and five dimension tables.
+
+  
 | Dimension table | Primary key |
 |---|---|
 |DimAircraft | aircraft_key|
@@ -76,6 +78,7 @@ Question 2:
 |DimFlight   | flight_key|
 |DimPassenger  | passenger_key|
 |DimDate  | date_key|
+
 
 Fact Table: dw.FactTicketSales 
 - Surrogate keys are used to identify the dimension records.
